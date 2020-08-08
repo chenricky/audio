@@ -8,36 +8,92 @@
 </head>
 
 <body>
-    <h1>my audio project</h1>
-        <h2>porkchop in Venice- Aug-3 2020</h2>
-        <h3>Location: Home</h3>
-        <audio controls>
-        <source src="./audioFiles/porkchop.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-        </audio>
 
-        <h2>what are you laughing at? Daina Panton- Aug-4 2020</h2>
-        <h3>Location: Home</h3>
-        <audio controls>
-            <source src="./audioFiles/whatareyoulaughing.mp3" type="audio/mpeg">
-          Your browser does not support the audio element.
-        </audio>
-        <h2>Ocean wave and wind - No filter - Aug-7 2020</h2>
-        <h3>Location: Carmel By The Sea</h3>
-        <audio controls>
-            <source src="./audioFiles/ocean wave and wing candidate 1.MP3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
-        <h2>Ocean wave and wind - with High Pass filter 100Hz 6dB - Aug-7 2020</h2>
-        <h3>Location: Carmel By The Sea </h3>
-        <audio controls>
-            <source src="./audioFiles/ocean wave and wing candidate 1 with high pass filter 100Hz 6dB.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">My Audio project</h1>
+          <p class="lead">Field Audio recording and Post Processing .</p>
+        </div>
+    </div>
 
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <ul class="list-unstyled mx-auto">
+        <li class="media">
+          <img src="./img/1-green-globe-t.gif" class="mr-3" alt="...">
+          <div class="media-body row">
+                <div class="col-sm-4">
+                    <h5 class="mt-0 mb-1">porkchop in Venice</h5>
+                    <h6>add intro music and normalization</h6>
+                    <h6>Location: Home</h6>
+                    <h7>Aug-3-2020</h7>
+                </div>
+                <div class="float-left col-sm-8">
+                    <audio controls>
+                    <source src="./audioFiles/porkchop.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                    </audio>
+                </div>
+          </div>
+        </li>
+        <br>
+        <li class="media">
+            <img src="./img/1-green-globe-t.gif" class="mr-3" alt="...">
+            <div class="media-body row">
+                  <div class="col-sm-4">
+                      <h5 class="mt-0 mb-1">what are you laughing at? Daina Panton</h5>
+                      <h6>add intro music and normalization</h6>
+                      <h6>Location: Home</h6>
+                      <h7>Aug-4-2020</h7>
+                  </div>
+                  <div class="float-left col-sm-8">
+                      <audio controls>
+                      <source src="./audioFiles/whatareyoulaughing.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                      </audio>
+                  </div>
+            </div>
+          </li>
+          <br>
+          <li class="media">
+            <img src="./img/1-green-globe-t.gif" class="mr-3" alt="...">
+            <div class="media-body row">
+                  <div class="col-sm-4">
+                      <h5 class="mt-0 mb-1">Ocean wave and wind</h5>
+                      <h6>No post-processing</h6>
+                      <h6>Location: Carmel By The Sea</h6>
+                      <h7>Aug-7-2020</h7>
+                  </div>
+                  <div class="float-left col-sm-8">
+                      <audio controls>
+                      <source src="./audioFiles/ocean wave and wing candidate 1.MP3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                      </audio>
+                  </div>
+            </div>
+          </li>
+          <br>
+          <li class="media">
+            <img src="./img/1-green-globe-t.gif" class="mr-3" alt="...">
+            <div class="media-body row">
+                  <div class="col-sm-4">
+                      <h5 class="mt-0 mb-1">Ocean wave and wind</h5>
+                      <h6>with High Pass filter 100Hz 6dB</h6>
+                      <h6>Location: Carmel By The Sea</h6>
+                      <h7>Aug-7-2020</h7>
+                  </div>
+                  <div class="float-left col-sm-8">
+                      <audio controls>
+                      <source src="./audioFiles/ocean wave and wing candidate 1 with high pass filter 100Hz 6dB.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                      </audio>
+                  </div>
+            </div>
+          </li>
+
+      </ul>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 
 </html>
